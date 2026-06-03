@@ -3,35 +3,35 @@
 Upload PDF Forms and convert them to Digital Forms
 
 ## Features
-File Uploader
-PDF Extraction
-Form Schema Generation using LLM
-Form Configuration with Validation
-Form Generation and Rendering
-Form Submission
+File Uploader<br>
+PDF Extraction<br>
+Form Schema Generation using LLM<br>
+Form Configuration with Validation<br>
+Form Generation and Rendering<br>
+Form Submission<br>
 ## Tech Stack
-React Js
-Tailwind CSS
-Redux Toolkit
-PDF Tools - 
-react pdf, pdfjs-dist
-Form Rools - 
-React Hook Forms, Zod
-AI Tools -
-Tesseract.js
-Open AI - GPT 4.1 mini
+React Js<br>
+Tailwind CSS<br>
+Redux Toolkit<br>
+PDF Tools - <br>
+react pdf, pdfjs-dist<br>
+Form Rools - <br>
+React Hook Forms, Zod<br>
+AI Tools -<br>
+Tesseract.js<br>
+Open AI - GPT 4.1 mini<br>
 
 ## Installation
 After cloning the repo, please run the following commands.
 
-npm i
-npm run dev
+npm i<br>
+npm run dev<br>
 
 Note: - .env is exluded in this repo, LLM call will function only with the API Key. I can share the key if required.
 
 ## Usage
 
-Once the application is launced, 
+Once the application is launched, 
 
 Select Upload Pdf file to upload a Pdf File. Once File is uploaded, you will be able to preview it.
 
@@ -53,8 +53,8 @@ Two types of PDF form documents were identified.
 ## State Management Strategies
 
 Used Redux Toolkit to manage the Application state. Created 2 stores.
-1. PDF - Stores the pdf file, extracted data
-2. Form - Stores the form schema, focussed field, form submission data.
+1. PDF - Stores the pdf file, extracted data<br>
+2. Form - Stores the form schema, focussed field, form submission data.<br>
 
 ## AI Adoption
 
