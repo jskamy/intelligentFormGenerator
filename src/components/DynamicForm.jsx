@@ -62,8 +62,8 @@ const DynamicForm = () => {
 
   function onSubmit(data) {
     setSubmissionState("submitted");
-    dispatch(setSubmittedData(data));
     console.log(data);
+    dispatch(setSubmittedData(data));
   }
 
   function onError(errors) {

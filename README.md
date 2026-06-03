@@ -43,12 +43,18 @@ Once the Form is generated, user can start using the form and as they use the fo
 
 Sample PDF forms are available in the PDF folder with which the application is tested.
 
-## Constraints
+## Approaches & Constraints
 
 Two types of PDF form documents were identified.
 1. Digital PDFs made using document processors that contains text layers and other document information in it. - React PDF is used for such PDFs and text is extracted using pdfjs-dist.
 
 2. Image based Scanned PDF contains only images, and Tesseract.js is used to extract text from such documents, but the approach was not effective.
+
+## State Management Strategies
+
+Used Redux Toolkit to manage the Application state. Created 2 stores.
+1. PDF - Stores the pdf file, extracted data
+2. Form - Stores the form schema, focussed field, form submission data.
 
 ## AI Adoption
 
