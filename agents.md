@@ -1,5 +1,9 @@
 This file is to provide instructions to agent.
 
-Projet Description:
+Project Description:
 
 The objective of the project is to generate forms using pdf physical forms.
+
+Stack -
+
+React
