@@ -6,4 +6,4 @@ The objective of the project is to build a form Generator based on PDF forms. Th
 
 Stack :
 
-React, Javascript, Tailwind
+React, Javascript, Tailwind, Redux, React Hook Forms, Zod
