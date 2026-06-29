@@ -27,7 +27,7 @@ After cloning the repo, please run the following commands.
 npm i<br>
 npm run dev<br>
 
-Note: - .env is excluded in this repo, LLM call will function only with the API Key.
+Note: - .env is excluded in this repo, LLM call will function only with the API Key. I can share the key if required.
 
 ## Usage
 
